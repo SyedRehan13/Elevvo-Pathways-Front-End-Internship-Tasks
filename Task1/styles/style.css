@@ -166,7 +166,7 @@ main {
     main {
         min-height: 100vh;
         width: 100vw;
-        background-image: url(../images/laptop-with-notebook-small-flamingos-table.jpg);
+        background-image: url("images/laptop-with-notebook-small-flamingos-table.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -235,3 +235,4 @@ main {
     }
 
 }
+
