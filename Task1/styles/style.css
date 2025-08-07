@@ -10,7 +10,7 @@ body {
 
 main {
     height: 100vh;
-    background-image: url(../images/laptop-with-notebook-small-flamingos-table.jpg);
+    background-image: url("images/laptop-with-notebook-small-flamingos-table.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -233,4 +233,5 @@ main {
     .logout {
         margin-top: 580px;
     }
+
 }
