@@ -245,7 +245,7 @@ body {
 @media(max-width: 768px) {
 
     .contact-form{
-        width: 450px;
+        width: 500px;
     }
 
     #form-container h1 {
@@ -373,5 +373,6 @@ body {
     }
 
 }
+
 
 
