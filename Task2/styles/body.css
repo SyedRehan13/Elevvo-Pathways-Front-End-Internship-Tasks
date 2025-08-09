@@ -243,14 +243,6 @@ body {
 
 
 @media(max-width: 768px) {
-
-    body {
-    background-image: url('../images/img3.jpg');
-    font-family: Montserrat;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    }
     
     .contact-form{
         width: 500px;
@@ -381,6 +373,7 @@ body {
     }
 
 }
+
 
 
 
