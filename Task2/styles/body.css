@@ -243,9 +243,9 @@ body {
 
 
 @media(max-width: 768px) {
-    
+
     .contact-form{
-        width: 500px;
+        width: 450px;
     }
 
     #form-container h1 {
@@ -257,7 +257,7 @@ body {
         width: 150px;
         position: absolute;
         top: -184px;
-        left: 100px;
+        left: -20px;
     }
 
     #plane-logo{
@@ -371,10 +371,4 @@ body {
         top: 11px;
         left: -50px;
     }
-
 }
-
-
-
-
-
