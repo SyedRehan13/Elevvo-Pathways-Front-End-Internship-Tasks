@@ -1,0 +1,374 @@
+body {
+    background-image: url('../images/img3.jpg');
+    font-family: Montserrat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+#form-container h1{
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-left: 4px;
+}
+
+
+#form-logo-container {
+    position: relative;
+}
+
+.form-logo {
+    width: 150px;
+    position: absolute;
+    top: -180px;
+    left: -5px;
+}
+
+#plane-logo{
+    width: 30px;
+    position: absolute;
+    top: 25px;
+    left: 210px;
+}
+
+#items-container {
+    margin-left: 210px;
+    position: relative;
+}
+
+.contact-form {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(14px);
+    color: white;
+    border: none;
+    display: flex;
+    width: 690px;
+    height: 490px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.contact-form input{
+    font-family: Montserrat, Arial;
+    color: #333333;
+    font-weight: 700;
+}
+
+.name-container {
+    position: relative;
+}
+
+#name {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 320px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 60px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+}
+
+#name:hover{
+    background-color: rgb(243, 241, 241);
+}
+
+#name:focus{
+    border: none;
+    outline: none;
+}
+
+#name::placeholder {
+    padding: 10px 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(146, 146, 146);
+}
+
+#name-logo {
+    width: 20px;
+    position: absolute;
+    top: 9px;
+    left: 22px;
+}
+
+#email-logo {
+    width: 13px;
+    position: absolute;
+    top: 13px;
+    left: 24px;
+}
+
+.email-container {
+    position: relative;
+}
+
+#email:hover{
+    background-color: rgb(243, 241, 241);
+}
+
+#email:focus{
+    border: none;
+    outline: none;
+}
+
+#email {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 320px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 60px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+}
+
+#email::placeholder {
+    padding: 10px 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(146, 146, 146);
+}
+
+.subject-container {
+    position: relative;
+}
+
+#subject-logo {
+    width: 12px;
+    position: absolute;
+    top: 13px;
+    left: 24px;
+}
+
+#subject:hover{
+    background-color: rgb(243, 241, 241);
+}
+
+#subject:focus{
+    border: none;
+    outline: none;
+}
+
+#subject {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 320px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 60px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+}
+
+#subject::placeholder {
+    padding: 10px 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(146, 146, 146);
+}
+
+.message-container {
+    position: relative;
+}
+
+#message-logo {
+    width: 13px;
+    position: absolute;
+    top: 14px;
+    left: 24px;
+}
+
+#message:hover{
+    background-color: rgb(243, 241, 241);
+}
+
+#message:focus{
+    border: none;
+    outline: none;
+}
+
+#message {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 320px;
+    padding: 12px 18px;
+    padding-bottom: 100px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+}
+
+#message::placeholder {
+    padding: 10px 25px;
+    font-family: Montserrat;
+    font-weight: 600;
+    color: rgb(146, 146, 146);
+}
+
+#submit {
+    display: block;
+    background-color: rgb(127, 71, 212);
+    width: 355px;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 60px;
+    margin-top: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+#submit:hover{
+    opacity: 0.9;
+}
+
+#submit:active{
+    background-color: rgb(108, 41, 210);
+}
+
+
+@media(max-width: 768px) {
+
+    .contact-form{
+        width: 450px;
+    }
+
+    #form-container h1 {
+        margin-left: -63px;
+        font-size: 22px;
+    }
+
+    .form-logo {
+        width: 150px;
+        position: absolute;
+        top: -184px;
+        left: -25px;
+    }
+
+    #plane-logo{
+        width: 25px;
+        top: 16px;
+        left: 90px;
+    }
+
+    #name {
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 170px;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 60px;
+        margin-bottom: 8px;
+        margin-left: -70px;
+    }
+
+    #name:hover{
+        background-color: rgb(243, 241, 241);
+    }
+
+    #name-logo {
+        width: 20px;
+        position: absolute;
+        top: 9px;
+        left: -50px;
+    }
+
+    #submit {
+        display: block;
+        background-color: rgb(153, 105, 225);
+        width: 207px;
+        color: white;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 60px;
+        margin-bottom: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-left: -70px;
+    }
+
+    #email {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 170px;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 60px;
+        margin-bottom: 8px;
+        margin-left: -70px;
+    }
+
+    #email:hover{
+        background-color: rgb(243, 241, 241);
+    }
+
+    #email-logo {
+        width: 17px;
+        position: absolute;
+        top: 11px;
+        left: -50px;
+    }
+
+    #subject {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 170px;
+        padding: 12px 18px;
+        border: none;
+        border-radius: 60px;
+        margin-bottom: 8px;
+        margin-left: -70px;
+    }
+
+    #subject:hover{
+        background-color: rgb(243, 241, 241);
+    }
+
+    #subject-logo {
+        width: 17px;
+        position: absolute;
+        top: 11px;
+        left: -50px;
+    }
+
+    #message {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        display: block;
+        width: 170px;
+        padding: 12px 18px;
+        padding-bottom: 100px;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 8px;
+        margin-left: -70px;
+    }
+
+    #message:hover{
+        background-color: rgb(243, 241, 241);
+    }
+
+    #message-logo {
+        width: 17px;
+        position: absolute;
+        top: 11px;
+        left: -50px;
+    }
+}
