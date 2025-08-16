@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="travel-icon-container">
+            <img class="travel-icon" src="icons/travel-holiday-vacation-10-svgrepo-com.svg" alt="">
+        </div>
+
+        <h1>My Personal Blog</h1>
+        <p>Exploring my adventures in technology, travel, and food</p>
+        <div class="filter-buttons">
+            <button class="category-btn active" onclick="filterPosts('all')">All</button>
+            <button class="category-btn" onclick="filterPosts('tech')">Tech</button>
+            <button class="category-btn" onclick="filterPosts('travel')">Travel</button>
+            <button class="category-btn" onclick="filterPosts('food')">Food</button>
+        </div>
+    </header>
+
+    <section class="blog-container" id="blogContainer">
+        <div class="blog-card" data-category="tech">
+            <img src="images/robot.jpg" alt="Tech">
+            <div class="blog-content">
+                <h3>Latest in AI</h3>
+                <p>Exploring how artificial intelligence is changing our world.</p>
+                <small>12 Aug 2025</small>
+            </div>
+        </div>
+
+        <div class="blog-card" data-category="travel">
+            <img class="blog-pic" src="images/pexels-dimasnaufalf-3911869.jpg" alt="Saudi Arabia">
+            <div class="blog-content">
+                <h3>Trip to Saudi Arabia</h3>
+                <p>My journey to Makkah and Madinah for Umrah.</p>
+                <small>13 Aug 2025</small>
+            </div>
+        </div>
+
+        <div class="blog-card" data-category="food">
+            <img src="images/middle east food.jpg" alt="Food">
+            <div class="blog-content">
+                <h3>Street Food Wonders</h3>
+                <p>Discovering delicious street food from around the world.</p>
+                <small>14 Aug 2025</small>
+            </div>
+        </div>
+
+        <div class="blog-card" data-category="tech">
+            <img src="images/web dev.jpg" alt="Tech">
+            <div class="blog-content">
+                <h3>Web Development Tips</h3>
+                <p>Best practices for building modern and responsive websites.</p>
+                <small>15 Aug 2025</small>
+            </div>
+        </div>
+
+        <div class="blog-card" data-category="travel">
+            <img src="images/Saudi Arabia Desert.jpg" alt="Desert">
+            <div class="blog-content">
+                <h3>Exploring the Desert</h3>
+                <p>My thrilling desert safari adventure in Riyadh.</p>
+                <small>16 Aug 2025</small>
+            </div>
+        </div>
+
+        <div class="blog-card" data-category="food">
+            <img src="images/Saudi food.jpg" alt="Food">
+            <div class="blog-content">
+                <h3>Middle Eastern Cuisine</h3>
+                <p>A taste journey through Saudi Arabia's traditional dishes.</p>
+                <small>17 Aug 2025</small>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="left-section">
+            <div class="contact-icons-container">
+                <img class="contact-icon1" src="icons/location.svg" alt="">
+                <img class="contact-icon2" src="icons/phone.svg" alt="">
+                <img class="contact-icon3" src="icons/mail.svg" alt="">
+            </div>
+            <div class="contact-text">
+                <p>101 Crescent Avenue
+                    London, United Kingdom</p>
+                <p>+44 20 7946 0123</p>
+                <p class="mail-text">rehanamir864@gmail.com</p>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="text-container">
+                <p class="about">About Me</p>
+                <p class="about-text">I love to explore things and love to travel, capturing moments and stories along
+                    the way. Through this blog, I share my experiences, insights, and discoveries—whether it's a new
+                    destination, a hidden local gem, or a thought-provoking idea worth discussing.</p>
+                <div class="social-icons-container">
+                    <a href="https://www.facebook.com/syed.rehanamir" target="_blank">
+                        <img class="facebook-icon" src="icons/facebook-square-social-logo-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="https://x.com/SyedRehanAmir1" target="_blank">
+                        <img class="twitter-icon" src="icons/twitter-square-logo-svgrepo-com.svg" alt="">
+                    </a>
+                    <a href="https://www.linkedin.com/in/syed-rehan-amir-679b4723a" target="_blank">
+                        <img class="linkedin-icon" src="icons/linkedin-svgrepo-com.svg" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p class="rights-text">Copyright © 2025 SyedRehanAmir &nbsp; All rights reserved.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

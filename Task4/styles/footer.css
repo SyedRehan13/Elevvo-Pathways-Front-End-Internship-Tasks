@@ -1,0 +1,157 @@
+footer {
+        display: flex;
+        position: relative;
+        background: #2c2f33;
+        height: 270px;
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+        position: relative;
+        animation-name: leftfootermoveup;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    .contact-icons-container {
+        display: flex;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        flex-direction: column;
+    }
+
+    .contact-icon1,
+    .contact-icon2,
+    .contact-icon3 {
+        height: 30px;
+    }
+
+    .contact-icon1 {
+        position: absolute;
+        top: 12px;
+    }
+
+    .contact-icon2 {
+        position: absolute;
+        top: 72px;
+    }
+
+    .contact-icon3 {
+        position: absolute;
+        top: 120px;
+    }
+
+    .contact-text {
+        color: white;
+        font-weight: 600;
+        display: flex;
+        position: absolute;
+        left: 100px;
+        top: 60px;
+        padding-top: -5px;
+        flex-direction: column;
+    }
+
+    .mail-text {
+        color: rgb(17, 141, 243);
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .right-section {
+        position: absolute;
+        left: 750px;
+        top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        animation-name: rightfootermoveup;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+
+    .social-icons-container {
+        position: absolute;
+        left: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        column-gap: 15px;
+    }
+
+    .about {
+        color: rgb(240, 240, 240);
+        font-weight: 700;
+        font-size: 22px;
+        margin-bottom: 6px;
+    }
+
+    .about-text {
+        color: rgb(107, 107, 107);
+        font-size: 15px;
+        max-width: 350px;
+        line-height: 18px;
+        text-align: justify;
+        line-break: normal;
+    }
+
+    .facebook-icon,
+    .twitter-icon,
+    .linkedin-icon {
+        cursor: pointer;
+        height: 30px;
+        border-radius: 2px;
+        border-width: 0px;
+        border-style: solid;
+        background-color: transparent;
+    }
+
+    .rights-text {
+        margin-top: 60px;
+        margin-left: 2px;
+        color: rgb(240, 240, 240);
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+
+    .category-buttons {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+
+    .category-btn {
+        padding: 12px 26px;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        border-radius: 30px;
+        background: linear-gradient(90deg, #4b79a1, #283e51);
+        color: white !important;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+
+    .category-btn:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.35);
+
+    }
+
+
+    .category-btn.active {
+        background: linear-gradient(90deg, #4b79a1, #283e51);
+        box-shadow: 0 0 26px rgba(0, 0, 0, 0.15);
+    }
