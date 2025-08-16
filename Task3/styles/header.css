@@ -1,0 +1,127 @@
+html {
+    font-family: Montserrat, Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 320px;
+    background: linear-gradient(90deg, #642B73, #C6426E);
+    color: white;
+}
+
+.header-items {
+    animation-name: headermoveleft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.task-icon {
+    width: 60px;
+    position: absolute;
+    left: 465px;
+    top: 85px;
+}
+
+.heading1 {
+    display: flex;
+    position: relative;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 88px;
+}
+
+.heading2 {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4px;
+}
+
+
+header h1 {
+    margin: 0;
+    /* removes browser default space */
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    position: relative;
+}
+
+.start-button {
+    background: transparent;
+    width: 134px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    position: absolute;
+    color: white;
+    left: 550px;
+    top: 6px;
+    white-space: nowrap;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.start-button:hover {
+    background-color: #642B73;
+}
+
+@media(max-width: 768px) {
+
+
+    .header {
+        width: 100%;
+        padding: 20px; /* optional for spacing */
+    }
+
+    .header-items {
+        position: absolute;
+        left: 200px;
+        animation-name: headermoveleft;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        animation-fill-mode: forwards;
+        opacity: 0;
+    }
+
+    .task-icon {
+        width: 60px;
+        position: absolute;
+        left: 30px;
+        top: 83px;
+    }
+
+    .start-button {
+        background: transparent;
+        width: 134px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 10px 20px;
+        position: absolute;
+        color: white;
+        left: 113px;
+        top: 6px;
+        white-space: nowrap;
+        border: none;
+        border-radius: 60px;
+        cursor: pointer;
+        transition: background-color 0.4s;
+
+    }
+}

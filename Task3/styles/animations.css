@@ -1,0 +1,200 @@
+@keyframes headermoveleft {
+    0% {
+        transform: translateY(-550px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes h2moveup {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(-100px);
+        opacity: 1;
+    }
+}
+
+@keyframes h3moveup {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(-170px);
+        opacity: 1;
+    }
+}
+
+@keyframes h4moveup {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(-4px);
+        opacity: 1;
+    }
+}
+
+
+@keyframes card1moveright {
+    0% {
+        transform: translateX(-250px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes card2moveup {
+    0% {
+        transform: translateY(250px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes card3moveleft {
+    0% {
+        transform: translateX(250px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes review2moveright {
+    0% {
+        transform: translateX(-250px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes reviewmoveleft {
+    0% {
+        transform: translateX(250px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes h5moveup {
+    0%{
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-375px);
+    }
+}
+
+@keyframes plan1moveup {
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-110px);
+    }
+}
+
+@keyframes plan2moveup {
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-110px);
+    }
+}
+
+@keyframes plan3moveup {
+    0%{
+        transform: translateY(0px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-110px);
+    }
+}
+
+@keyframes leftfootermoveup{
+    0%{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-35px);
+    }
+}
+
+@keyframes rightfootermoveup{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+}
+
+@media(max-width: 768px) {
+    @keyframes h3moveup {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateY(-400px);
+            opacity: 1;
+        }
+    }
+
+    @keyframes card3moveleft {
+        0% {
+            transform: translateX(250px);
+            opacity: 0;
+        }
+
+        100% {
+            transform: translateX(-11px);
+            opacity: 1;
+        }
+    }
+}

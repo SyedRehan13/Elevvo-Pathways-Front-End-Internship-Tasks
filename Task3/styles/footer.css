@@ -1,0 +1,117 @@
+footer {
+    display: flex;
+    position: relative;
+    background: #2c2f33;
+    height: 270px;
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    animation-name: leftfootermoveup;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.contact-icons-container{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    flex-direction: column;
+}
+
+.contact-icon1, .contact-icon2, .contact-icon3{
+    height: 30px;
+}
+
+.contact-icon1{
+    position: absolute;
+    top: 12px;
+}
+
+.contact-icon2{
+    position: absolute;
+    top: 88px;
+}
+
+.contact-icon3{
+    position: absolute;
+    top: 140px;
+}
+
+.contact-text{
+    color: white;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    padding-top: -5px ;
+    flex-direction: column;
+}
+
+.mail-text{
+    color: rgb(17, 141, 243);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right-section{
+    position: absolute;
+    left: 750px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    animation-name: rightfootermoveup;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.social-icons-container{
+    position: absolute;
+    left: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.about{
+    color: rgb(240, 240, 240);
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.about-text{
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    max-width: 350px; /* limits line length */
+    line-height: 18px; /* improves readability */
+    text-align: justify; /* optional, for cleaner edges */
+    line-break: normal;
+}
+
+.facebook-icon, .twitter-icon, .linkedin-icon {
+    cursor: pointer;
+    height: 30px;
+    border-radius: 2px;
+    border-width: 0px;
+    border-style: solid;
+    background-color: transparent;
+}
+
+.rights-text{
+    margin-top: 60px;
+    margin-left: 2px;
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+    font-weight: 400;
+}
