@@ -1,3 +1,11 @@
+## Live Demo 🔗 
+Task 1: https://syedrehan13.github.io/Elevvo-Pathways-Front-End-Internship-Tasks/Task1/
+
+Task 2: https://syedrehan13.github.io/Elevvo-Pathways-Front-End-Internship-Tasks/Task2/
+
+Task 3: https://syedrehan13.github.io/Elevvo-Pathways-Front-End-Internship-Tasks/Task3/
+
+Task 4: https://syedrehan13.github.io/Elevvo-Pathways-Front-End-Internship-Tasks/Task4/
 
 ---
 
